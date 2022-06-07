@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --color-red: #F03C42;
+    --color-white: #FFFFFF;
+    --color-blue: #222374;
+    --color-gray: #CCCCCC;
+    --color-black: #000000;
+}
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
+header {
+    background-color: var(--color-red);
+    color: var(--color-white);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.title {
+    margin-left: 120px;
+    font-size: 18px;
+    width: 99px;
+    height: 25px;
+    font-weight: 700;
+    align-items: center;
+}
+
+.instagram {
+    margin-right: 120px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.instagram img {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#espaco-fit {
+    background-color: var(--color-blue);
+    padding-bottom: 20px;
+}
+
+.space-title {
+    color: var(--color-white);
+    padding-top: 20px;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.fitness {
+    background-color: var(--color-gray);
+    padding: 20px 0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.fitness h3 {
+    margin: 0 0 20px 20px;
+}
+
+.fitness p {
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#modality {
+    background-color: var(--color-white);
+}
+
+#modality h2 {
+    font-size: 32px;
+    color: var(--color-red);    
+    padding: 20px 0 20px 0;
+}
+
+.style {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    border-radius: 8px;
+}
+
+.style h3 {
+    margin: 20px 20px;
+    padding-top: 20px;
+}
+
+.style p {
+    margin: 0 0 20px 20px;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: var(--color-black);
+    width: 100%;
+    height: 276px;
+    color: var(--color-white);
+}
+
+.foot-content {
+    display: flex;
+    flex-direction: column;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.foot-insta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 68px 0 20px 10px;
+    font-size: 14px;
+}
+
+.foot-twitter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 36px;
+    font-size: 14px;
+}
+
+.ending {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin-bottom: 60px;
+}
